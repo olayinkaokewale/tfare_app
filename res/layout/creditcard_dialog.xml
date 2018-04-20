@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/light_bg"
+        android:textSize="@dimen/moderate_txt"
+        android:drawableLeft="@mipmap/fundwallet_label_ic"
+        android:drawableStart="@mipmap/fundwallet_label_ic"
+        android:background="@color/dark_bg"
+        android:text="@string/select_card"/>
+
+    <LinearLayout
+        android:id="@+id/cards_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

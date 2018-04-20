@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/friend_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/moderate_txt"
+            android:textStyle="normal"
+            android:textColor="@color/dark_bg"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/dark_bg"
+            android:background="@drawable/edittext_bg"
+            android:hint="@string/friend_phone_number"/>
+
+        <EditText
+            android:id="@+id/start_bus_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/moderate_txt"
+            android:textStyle="normal"
+            android:textColor="@color/dark_bg"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/dark_bg"
+            android:background="@drawable/edittext_bg"
+            android:hint="@string/current_busstop"/>
+
+        <EditText
+            android:id="@+id/destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/moderate_txt"
+            android:textStyle="normal"
+            android:textColor="@color/dark_bg"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/dark_bg"
+            android:background="@drawable/edittext_bg"
+            android:hint="@string/select_destination"/>
+
+        <EditText
+            android:id="@+id/ticket_admits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/moderate_txt"
+            android:textStyle="normal"
+            android:textColor="@color/dark_bg"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/dark_bg"
+            android:background="@drawable/edittext_bg"
+            android:hint="@string/ticket_admits"/>
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/moderate_txt"
+            android:textStyle="normal"
+            android:textColor="@color/dark_bg"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/dark_bg"
+            android:background="@drawable/edittext_bg"
+            android:hint="@string/ticket_price"/>
+
+        <Button
+            android:id="@+id/buy_ticket_for_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/moderate_txt"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/light_bg"
+            android:background="@drawable/purple_btn_bg_selector"
+            android:text="@string/buy_ticket"/>
+
+        <TextView
+            android:id="@+id/error_display_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/errorColor"/>
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</ScrollView>

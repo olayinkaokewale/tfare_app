@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/dark_bg"/>
+
+    <item>
+        <nine-patch android:src="@drawable/splash_layer_2"/>
+    </item>
+
+    <item android:gravity="fill_horizontal">
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/app_logo" />
+    </item>
+
+</layer-list>

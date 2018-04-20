@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Tfare</string>
+    <string name="tut_skip">skip</string>
+    <string name="tut_next">next</string>
+    <string name="tut_start">start</string>
+    <string name="slide_1_title">Onboarding takes a few steps</string>
+
+    <string name="slide_2_title">Setup your wallet</string>
+    <string name="slide_2_desc">Setup your wallet to enjoy seemless payment on the platform</string>
+
+    <string name="slide_3_title">Fund your wallet</string>
+    <string name="slide_3_desc">Fund your wallet from your account to enable you make payment</string>
+
+    <string name="slide_4_title">Payment</string>
+    <string name="slide_4_desc">Select your destination and make payment</string>
+
+    <string name="slide_5_title">Proceed to boarding</string>
+    <string name="slide_5_desc">Now you can enjoy your trip</string>
+    <string name="slogan">Easy as One, Two, Pay</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">*****</string>
+    <string name="register">Register</string>
+    <string name="already_registered">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="divide_str">|</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="balance">Balance</string>
+    <string name="topup">Top Up</string>
+    <string name="buy_ticket">Buy Ticket</string>
+    <string name="fund_wallet">Fund Wallet</string>
+    <string name="support">Support</string>
+    <string name="ticket_history">Ticket History</string>
+    <string name="settings">Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="payment_settings">Payment Settings</string>
+    <string name="faq">FAQ</string>
+    <string name="complain_ticket">Complain Ticket</string>
+    <string name="select_card">Select Card</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="fund_tfare">Fund Tfare</string>
+    <string name="complaint_title">Complaint Title</string>
+    <string name="urgency">Urgency</string>
+    <string name="complaint_message">Message</string>
+    <string name="send_complaint">Send Complaint</string>
+    <string name="faq1">This is the question number one</string>
+    <string name="faq_answer1">This is the answer to question number one. This is the answer to question number one. This is the answer to question number one</string>
+    <string name="faq2">This is the question number two</string>
+    <string name="faq_answer2">This is the answer to question number two. This is the answer to question number two. This is the answer to question number two</string>
+    <string name="faq3">This is the question number one</string>
+    <string name="faq_answer3">This is the answer to question number three. This is the answer to question number three. This is the answer to question number three</string>
+    <string name="ticket_admits">Ticket Admits</string>
+    <string name="select_destination">Select Destination</string>
+    <string name="ticket_price">Ticket Price</string>
+    <string name="current_busstop">Current Bus-stop</string>
+    <string name="friend_name">Friend\'s Name</string>
+    <string name="buy_for_self">Buy for Self</string>
+    <string name="buy_for_friend">Buy for Friend</string>
+    <string name="friend_phone_number">Friend\'s Phone Number</string>
+    <string name="enter_card_number">Enter Card Number</string>
+    <string name="enter_cv2_number">Enter CV2 Number</string>
+    <string name="enter_expiry_date">Enter Expiry Date</string>
+    <string name="enter_card_pin">Enter Card Pin</string>
+    <string name="add_card">Add Card</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="select_location">Select Location</string>
+    <string name="update">Update</string>
+    <string name="feedback">Feedback</string>
+    <string name="enter_current_pin">Enter Current Pin</string>
+    <string name="enter_new_pin">Enter New Pin</string>
+    <string name="confirm_new_pin">Confirm New Pin</string>
+    <string name="change_pin">Change Pin</string>
+    <string name="view_ticket">View Ticket</string>
+    <string name="ticket_id">Ticket ID</string>
+    <string name="default_admit_number">1</string>
+</resources>

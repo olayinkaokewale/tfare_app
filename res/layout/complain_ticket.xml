@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/purple_gradient_bg"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--<ImageButton
+                android:id="@+id/back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/back_btn_ic"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/transparent_selector"/>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/app_logo"
+                android:layout_centerInParent="true"
+                android:padding="10dp"
+                />
+            <ImageButton
+                android:id="@+id/settings_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/settings_icon"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/circular_btn_bg_selector"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/activity_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/light_bg"
+            android:textSize="@dimen/moderate_txt"
+            android:drawableLeft="@mipmap/complain_ticket_label_ic"
+            android:drawableStart="@mipmap/complain_ticket_label_ic"
+            android:text="@string/complain_ticket"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/complaint_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/moderate_txt"
+            android:textStyle="normal"
+            android:textColor="@color/dark_bg"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/dark_bg"
+            android:background="@drawable/edittext_bg"
+            android:hint="@string/complaint_title"/>
+
+        <Button
+            android:id="@+id/select_urgency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textSize="@dimen/moderate_txt"
+            android:textStyle="normal"
+            android:textColor="@color/dark_bg"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangular_btn_bg_selector"
+            android:text="@string/urgency"/>
+
+        <EditText
+            android:id="@+id/complaint_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/moderate_txt"
+            android:textStyle="normal"
+            android:lines="7"
+            android:textColor="@color/dark_bg"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/dark_bg"
+            android:background="@drawable/edittext_bg"
+            android:hint="@string/complaint_message"/>
+
+        <Button
+            android:id="@+id/send_complaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/moderate_txt"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/light_bg"
+            android:background="@drawable/purple_btn_bg_selector"
+            android:text="@string/send_complaint"/>
+
+        <TextView
+            android:id="@+id/error_display_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/errorColor"/>
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</LinearLayout>
